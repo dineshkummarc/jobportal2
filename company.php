@@ -1,4 +1,4 @@
-    <div class="hero-wrap js-fullheight" style="background-color: #0BE0FD">
+    <div class="hero-wrap js-fullheight" style="background-image: url('<?php echo web_root; ?>plugins/jobportal/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start" data-scrollax-parent="true">
@@ -12,7 +12,7 @@
 
 
 
-    <section class="ftco-section" style="background-color: #0BE0FD">
+    <section class="ftco-section bg-light">
       <div class="container">
         <div class="row d-flex">
 
