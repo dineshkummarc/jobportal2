@@ -1,5 +1,5 @@
 
-    <div class="hero-wrap js-fullheight" style="background-color: #0BE0FD">
+    <div class="hero-wrap js-fullheight" style="background-image: url('<?php echo web_root; ?>plugins/jobportal/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -11,12 +11,12 @@
               <div class="row">
                 <div class="col-md-12 nav-link-wrap">
                   <div class="nav nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active mr-md-1 bg-info" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Find a Job</a>  
+                    <a class="nav-link active mr-md-1" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Find a Job</a>  
                   </div>
                 </div>
                 <div class="col-md-12 tab-wrap">
                   
-                  <div class="tab-content p-4 bg-info" id="v-pills-tabContent">
+                  <div class="tab-content p-4" id="v-pills-tabContent">
 
                     <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
                    
@@ -89,7 +89,7 @@
       </div>
     </div>
 
-    <section class="ftco-section services-section" style="background-color: #0BE0FD">
+    <section class="ftco-section services-section bg-light">
       <div class="container">
         <div class="row d-flex">
           <div class="col-md-3 d-flex align-self-stretch ftco-animate">
@@ -132,7 +132,7 @@
       </div>
     </section>
 
-    <section class="ftco-section ftco-counter" style="background-color: #0BE0FD">
+    <section class="ftco-section ftco-counter">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -177,7 +177,7 @@
       </div>
     </section>
 
-    <section class="ftco-section" style="background-color: #0BE0FD">
+    <section class="ftco-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -497,7 +497,7 @@
     </section>
 
 
-    <section class="ftco-section testimony-section" style="background-color: #0BE0FD">
+    <section class="ftco-section testimony-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -584,7 +584,7 @@
       </div>
     </section>
 
-    <section class="ftco-section" style="background-color: #0BE0FD">
+    <section class="ftco-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
