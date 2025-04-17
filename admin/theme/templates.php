@@ -2,7 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Job Portal
+        <title><?php
+                // $query = "SELECT * FROM `tbltitle` WHERE TItleID=1";
+                // $res = mysql_query($query) or die(mysql_error());
+                // $viewTitle = mysql_fetch_assoc($res);
+                // echo $viewTitle['Title'];
+            ?>
         </title>
        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <!-- Bootstrap 3.3.5 -->
@@ -39,14 +44,14 @@
  
     </head>
 
- <body class="hold-transition skin-yellow fixed sidebar-mini">
+ <body class="hold-transition skin-blue fixed sidebar-mini">
 <div class="wrapper">
 
   <header class="main-header">
     <!-- Logo -->
     <a href="<?php echo web_root;?>/admin/" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b></b></span>
+      <span class="logo-mini"><b>JB</b></span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>Job Portal</b></span>
     </a>
@@ -68,13 +73,13 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu" style="padding-right: 15px;"  >
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../user/jude.jpg" class="user-image" alt="User Image">
+              <img src="<?php echo web_root.'admin/user/'. $singleuser->PICLOCATION;?>" class="user-image" alt="User Image">
               <span class="hidden-xs"><?php echo $singleuser->FULLNAME; ?></span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header"> 
-                <img data-target="#menuModal"  data-toggle="modal"  src="../user/jude.jpg" class="img-circle" alt="User Image" />  
+                <img data-target="#menuModal"  data-toggle="modal"  src="<?php echo web_root.'admin/user/'. $singleuser->PICLOCATION;?>" class="img-circle" alt="User Image" />  
               </li> 
               <!-- Menu Footer-->
               <li class="user-footer">
@@ -263,7 +268,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 2.3.2
     </div>
-    <strong>Copyright &copy; 2021 <a href="#">Jude Suarez</a>.</strong> All rights
+    <strong>Copyright &copy; 2018 <a href="#">Janno Palacios</a>.</strong> All rights
     reserved.
   </footer>
 
