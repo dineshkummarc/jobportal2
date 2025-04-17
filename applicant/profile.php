@@ -4,7 +4,7 @@
 	  $applicant = $appl->single_applicant($_SESSION['APPLICANTID']); 
   ?>
 
-    <div class="hero-wrap js-fullheight" style="background-color: #0BE0FD">
+    <div class="hero-wrap js-fullheight" style="background-image: url('<?php echo web_root; ?>plugins/jobportal/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start" data-scrollax-parent="true">
@@ -44,7 +44,7 @@
            <div class="panel panel-default">            
             <div class="panel-body"> 
               <div  id="image-container">
-                <img title="profile image"  data-target="#myModal"  data-toggle="modal"  src="">  
+                <img title="profile image"  data-target="#myModal"  data-toggle="modal"  src="<?php echo web_root.'applicant/'.$applicant->APPLICANTPHOTO; ?>">  
               </div>
              </div>
           <ul class="list-group"> 
